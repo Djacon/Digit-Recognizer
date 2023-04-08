@@ -4,4 +4,4 @@ This is my project with a simple neural network that recognizes handwritten digi
 
 You can test my program right here 👇
 
-Link: https://djacon.github.io/Digit-Recognition/
+Link: https://djacon.github.io/digit-recognition/

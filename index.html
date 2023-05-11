@@ -21,8 +21,8 @@
   <div class="container">
     <div class="row">
       <div class="card-panel hoverable">
-        <blockquote><p style="font-size:larger"><strong>This demo is a digit recognizer made with the ONNX.js framework from Microsoft. Similar to tensorflow.js, 
-          ONNX.js is another framework to provide the capability of running machine learning models with JavaScript.
+        <blockquote><p style="font-size:larger"><strong>This demo is a simple neural network that recognizes handwritten digits. 
+          The site and the neural network is written in pure js, so the program produces a prediction quite fast
         </strong></p></blockquote>
 
       </div>
@@ -120,7 +120,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Simple Digit Recognizer</h5>
-          <div class="grey-text text-lighten-4">ONNX.js demo using  MNIST model trained using PyTorch to make predictions on the web!</div>
+          <div class="grey-text text-lighten-4">JS demo using model trained using PyTorch to make predictions on the web!</div>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
@@ -135,8 +135,7 @@
       <div class="container">© 2023 Djacon</div>
     </div>
   </footer>
-      
-    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <script src="src/weights.js"></script>
     <script src="src/index.js"></script>
   </body>
 </html>

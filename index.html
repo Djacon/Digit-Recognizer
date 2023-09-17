@@ -20,97 +20,98 @@
 
   <div class="container">
     <div class="row">
-      <div class="card-panel hoverable">
+      <div class="card-panel">
         <blockquote><p style="font-size:larger"><strong>This demo is a simple neural network that recognizes handwritten digits. 
           The site and the neural network is written in pure js, so the program produces a prediction quite fast
         </strong></p></blockquote>
-
       </div>
-      <div class="col s3 offset-s4">
-        <div class="card-panel no-pad hoverable">
-          <canvas
-            class="canvas elevation"
-            id="canvas"
-            width="280"
-            height="280"
-          ></canvas>
-        </div>
-      </div>
-      <div class="card-panel hoverable col s2">
-        <div id="pred" class="predictions">
-          <div class="prediction-col" id="prediction-0">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">0</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-1">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">1</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-2">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">2</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-3">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">3</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-4">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">4</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-5">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">5</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-6">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">6</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-7">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">7</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-8">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">8</div>
-          </div>
-  
-          <div class="prediction-col" id="prediction-9">
-            <div class="prediction-bar-container">
-              <div class="prediction-bar"></div>
-            </div>
-            <div class="prediction-number rotated">9</div>
+      <div class="draw-panel">
+         <div class="col">
+          <div class="card-panel canvas-panel no-pad hoverable">
+            <canvas
+              class="canvas elevation"
+              id="canvas"
+              width="280"
+              height="280"
+            ></canvas>
           </div>
         </div>
-        <div class="button-pad center">
-        <a id="clear-button" class="waves-effect waves-light btn">CLEAR</a>
-      </div>
+        <div class="card-panel hoverable col">
+          <div id="pred" class="predictions">
+            <div class="prediction-col" id="prediction-0">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">0</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-1">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">1</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-2">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">2</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-3">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">3</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-4">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">4</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-5">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">5</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-6">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">6</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-7">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">7</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-8">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">8</div>
+            </div>
+    
+            <div class="prediction-col" id="prediction-9">
+              <div class="prediction-bar-container">
+                <div class="prediction-bar"></div>
+              </div>
+              <div class="prediction-number rotated">9</div>
+            </div>
+          </div>
+          <div class="button-pad center">
+          <a id="clear-button" class="waves-effect waves-light btn">CLEAR</a>
+        </div>
+        </div>
       </div>
     </div>
   </div>

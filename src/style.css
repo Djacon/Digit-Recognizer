@@ -80,7 +80,33 @@ p {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+@media (max-height: 800px) {
+    footer {
+        position: relative;
+        bottom: 0;
+    }
+}
+
+.canvas-panel {
+  width: 300px;
+}
+
+.draw-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }

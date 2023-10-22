@@ -1,7 +1,6 @@
-# Digit Recognizer
+# Digit Recognition Web App
 
-This is my project with a simple neural network that recognizes handwritten digits. The site and the neural network is written in pure js, so the program produces a prediction quite quickly.
+Welcome to the Digit Recognition Web App! This project showcases a user-friendly neural network designed to swiftly recognize handwritten digits. The entire application is built using pure JavaScript, ensuring speedy predictions.
 
-You can test my program right here 👇
-
-Link: https://djacon.github.io/digit-recognition/
+Give it a try right here:\
+🔗 [Digit Recognition Web App](https://djacon.github.io/digit-recognition/)
